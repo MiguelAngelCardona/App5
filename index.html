@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">  
+<title>Quinta Aplicacion</title> 
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp3.min.css"/>  
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script> 
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/beneficios2.jpg','imagenes/acustica.png')"> 
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia de la Tierra </h1>
+</div> 
+<div data-role="main" class="ui-content">
+</div>
+
+<div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:960px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<br><ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dia de la Tierra</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medidas</h2>
+</a>
+</li>
+ <div data-role="collapsible" data-content-theme="false"> 
+<h1>Calentamiento Global</h1>
+<div>
+<p align="center"><font size="6" color="#FF0000">Calentamiento Global</font></p>
+<p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/ca2.jpg',1)"><img src="imagenes/ca.png" width="187" height="169" id="Image11" align="left"></a>Calentamiento Global se refiere al aumento gradual de las temperaturas de la atmósfera y océanos de la Tierra que se ha detectado en la actualidad, además de su continuo aumento que se proyecta a futuro.Aún así, la mayor parte de la comunidad científica asegura que hay más que un 90% de certeza que el aumento se debe al aumento de las concentraciones de gases de efecto invernadero por las actividades humanas que incluyen deforestación y la quema de combustibles fósiles como el petróleo y el carbón. Estas conclusiones son avaladas por las academias de ciencia de la mayoría de los países industrializados.La proyecciones a partir de modelos de clima fueron resumidos en el Cuarto Reporte del IPCC (Panel Intergubernamental sobre Cambio Climático) en el 2007. Indican que la temperatura global probablemente seguirá aumentando durante el siglo XXI, el aumento sería de entre 1.1 y 2.9ºC en el escenario de emisiones más bajo y entre 2.4 y 6.4ºC en el de mayores emisiones. Un aumento de la temperatura global resultará en cambios como ya se están observando a nivel mundial, podemos enumerar:</p>
+<ul>
+<li align="left">Aumento de los niveles del mar</li>
+<li align="left">Cambios en el patrón y cantidad de precipitaciones</li>
+<li align="left">Expansión de los desiertos subtropicales</li>
+</ul>
+<br>
+</div>
+</div>
+
+<div data-role="collapsible" data-content-theme="false"> 
+<h1>El medio ambiente</h1>
+<div>
+<p align="center"><font size="6" color="#FF0000">El medio ambiente</font></p>
+<p align="left"><img src="imagenes/am.png" width="200" height="200" align="left">El medio ambiente es el conjunto de componentes físicos, químicos, biológicos, de las personas o de la sociedad en su conjunto.1 Comprende el conjunto de valores naturales, sociales y culturales existentes en un lugar y en un momento determinado, que influyen en la vida del ser humano y en las generaciones futuras. Es decir, no se trata solo del espacio en el que se desarrolla la vida, sino que también comprende seres vivos, objetos, agua, suelo, aire y las relaciones entre ellos, así como elementos tan intangibles como la cultura. La atmósfera, que protege a la Tierra del exceso de radiación ultravioleta y permite la existencia de vida es una mezcla gaseosa de nitrógeno, oxígeno, hidrógeno, dióxido de carbono, vapor de agua, otros elementos y compuestos, y partículas de polvo. Calentada por el Sol y la energía radiante de la Tierra, la atmósfera circula en torno al planeta y modifica las diferencias térmicas. Por lo que se refiere al agua, un 97% se encuentra en los océanos, un 2% es hielo y el 1% restante es el agua dulce de los ríos, los lagos, las aguas subterráneas y la humedad atmosférica y del suelo. El suelo es el delgado manto de materia que sustenta la vida terrestre. Es producto de la interacción del clima y del sustrato rocoso o roca madre, como las morrenas glaciares y las rocas sedimentarias, y de la vegetación. De todos ellos dependen los organismos vivos, incluyendo los seres humanos. Las plantas se sirven del agua, del dióxido de carbono y de la luz solar para convertir materias primas en carbohidratos por medio de la fotosíntesis; la vida animal, a su vez, depende de las plantas en una secuencia de vínculos interconectados conocida como red trófica. Algunos factores importantes del medio ambiente son:</p>
+<ul>
+<li align="left">Organismos vivos.</li>
+<li align="left">Clima.</li>
+<li align="left">Relieve.</li>
+<li align="left">Deforestación.</li>
+<li align="left">Sobreforestación</li>
+</ul>
+<br>
+</div>
+</div>
+ <div data-role="collapsible" data-content-theme="false"> 
+<h1>Tipos de Contaminación</font></h1>
+<div>
+<p align="center"><font size="6" color="#FF0000">Contaminación del agua</font>
+<p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/agua2.jpg',1)"><img src="imagenes/agua.jpg" width="217" height="151" id="Image8" align="left"></a>Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.</p>
+<p align="left"><font color="#FF0000">Causas.</font><br>
+</p>
+<ul>
+<li align="left">Los residuos industriales se vierten en estos cuerpos de agua. Esto provoca un desequilibrio químico en el agua que conduce a la muerte de los seres acuáticos.</li>
+<li align="left">Insecticidas, pesticidas y productos químicos de maduración que se utilizan en las plantas que se usan en el sistema de aguas subterráneas o arroyos cercanos.</li>
+<li align="left">Lavar la ropa cerca de lagos y ríos detergentes causa una enfermedad llamada “eutrofización”, que bloquea la luz del sol entre en el interior y reduce los valores de oxígeno en el agua, causando un ambiente inhabitable.</li>
+<li align="left">Derrames de petróleo’ son causados ​​cuando los buques petroleros gigantes y plataformas petrolíferas que están presentes en los océanos están dañadas por cualquiera tipo de error humano o natural causando un daño a largo tiempo para el océano. Como el petróleo es más ligero que el agua, flota sobre el agua formando una capa de bloqueo del luz del sol.</li>
+</ul>
+
+<p align="center"><font size="6" color="#FF0000">Contaminación Acustica</font></p>
+<p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/acustica.png',1)"><img src="imagenes/acustica2.png" width="257" height="136" id="Image17" align="left"></a>Esencialmente, la contaminación acústica es el tipo de contaminación que se produce por diferentes fuentes de audio que está causando la sensación de irritación, distracción para nuestro medio ambiente. Esta contaminación no es no sólo perturbar el medio ambiente sino que también produce daño a nuestra humanidad.</p>
+<p align="left"><font color="#FF0000">Causas.</font><br>Una de las principales fuentes de contaminación acústica es nuestro transporte, sobre todo el ruido provocado por los vehículos de motor. Otras fuentes incluyen las sirenas de los servicios de emergencia, alarmas, maquinaria de fábrica, equipo de oficina, trabajos de construcción, herramientas eléctricas, perros ladrando, altavoces, diferentes sistemas de audio, iluminación y escenario zumbido reuniones perturbaciones pueden causar la contaminación acústica. Entre todos estos vehículos de motor son las principales fuentes de contaminación acústica.</p>
+
+<p align="center"><font size="6" color="#FF0000">Contaminación Luminíca</font></p>
+<p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/lu2.jpg',1)"><img src="imagenes/lu.jpg" width="180" height="123" id="Image10" align="left"></a>La luz artificial se está convirtiendo en un peligro para nuestra planeta. Esta no sólo afecta a la belleza natural, sino a seres humanos, los animales, las aves y la vegetación. Por lo tanto, el ciclo de vida de los seres vivos también está siendo afectada por la contaminación lumínica. Mucha gente no sabe acerca de la contaminación lumínica, sino que se ha extendido en casi todos los países del planeta tierra. Todo el mundo se enfrenta ahora al problema de la contaminación lumínica y mucha gente y los gobiernos son conscientes de sus efectos desastrosos.La oscuridad ayuda a regular el reloj biológico humano y, debido a la exposición excesiva a la luz, el reloj biológico está siendo perturbado. La luz artificial se ha extendido tanto que la oscuridad está en peligro. En los animales nocturnos y los pájaros, los ciclos de la edad y la reproducción están siendo afectados. Las especies marinas también se ven afectados por la contaminación lumínica. Muchas tortugas dependen de las estrellas para encontrar la dirección durante la noche y aterrizan en las playas equivocadas, lo cual es peligroso para ellos.<p>
+<br>
+</div> 
+</div>
+<div data-role="collapsible" data-content-theme="false"> 
+<h1>El medio ambiente en mi comunidad</h1>
+<p align="center"><font size="6" color="#FF0000">Medio Ambiente en mi comunidad.</font></p>
+<p align="left"><img src="imagenes/visor3.jpg" width="207" height="124" align="left">En mi comunidad el medio ambiente es un poco contaminante, porque en algunas ocasiones la gente suela pasar y tiran la basura en el suelo o lo tiran al rio. Muchas cosas han cambiado con el paso de los años, por ejemplo me han contado los vecinos de mi comunidad que antes no habia tanta contaminaciòn en las calles, y que en el rio uno se podia meter a nadar o a bañarse, ya que el agua estaba transparente. Pero ahora las calles ya estan todas contaminadas debido a que hay mucha basura, y a pesar de que la colonia no esta tan grande hay mucha basura, y el rio ya esta de color negro, ya que hay mucha basura, de drenajes, de envaces, bolsas de chettos, etc. Por lo que en mi colonia si hay mucha contaminacion.</p>
+<p align="left">&nbsp;</p>
+<p align="left"><img src="imagenes/visor.jpg" width="354" height="184" alt="visor"> <img src="imagenes/visor2.jpg" width="305" height="184" alt="visor2"> <img src="imagenes/visor4.jpg" width="287" height="185" alt="visor4"></p>
+<p align="left">&nbsp;</p>
+<p align="center"><font size="6" color="#FF0000">¿Cómo prevenir la contaminación en mi comunidad?</font></p>
+<p align="left"><img src="imagenes/limpieza.gif" width="207" height="124" align="left">Para poder impidir la contaminación en mi comunidad podemos hacer diferentes acciones entre nosotros, siempre y cuándo todos estemos de acuerdo y estemos dispuestos a hacerlo. Para ello podemos hacerlo de varias maneras:</p>
+
+<ul>
+<li align="left">Hablar sobre este asunto y lograr un dialogo para resolverlo</li>
+<li align="left">Hablar y exigir a la gente desconocida que pasa por nuestra colonia que no tire basura</li>
+<li align="left">Recoger la basura mediante turnos.</li>
+<li align="left">No volver a tirar basura o detergente al rio.</li>
+<li align="left">No quemar materiales cerca del rio en nuestra comunidad.</li> 
+<li align="left">Pedirle al señor del camión de basurero que pase con más frecuencia.</li>
+<li align="left">No usar mucho el carro cuando no sea necesario.</li>
+<li align="left">Hacer limpieza afuera de nuestras casas..</li>
+<br> 
+</div>
+</ul>
+</div>
+
+<div data-role="footer" align="center" data-theme="a">
+<div> 
+<img src="imagenes/mdpi.png" width="46" height="46"> 
+</div>
+<div>
+<h4>App5</h4> 
+<h4>Cardona Rosas Miguel Angel</h4>
+</div> 
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia de la Tierra</h1> 
+<div data-role="content" align="center">
+<div>
+<p align="center"><font size="6" color="#FF0000">¿Qué significa el dia de la Tierra?</font>
+<p align="left"><img src="imagenes/tierra.jpg" width="200" height="200" align="left">El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos. Es una expresión común utilizada para referirse al planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos y Observando que cada año se celebra el Día de la Tierra en numerosos países, decidió designar el 22 de abril como Día Internacional de la Madre Tierra</p>
+<p align="center"><font size="6" color="#FF0000">¿Cuándo se celebra el dia de la Tierra?</font>
+<p align="left"><img src="imagenes/historia.jpg" width="200" height="200" align="left">En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana.2 Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.3 Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970. La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.Desde su comienzo en el año 1970 y  con la participación en EE.UU de 20 millones de personas, el Día de la Tierra se ha convertido en una tradición mundial. Averiguar cuándo es, cómo empezó, cómo evolucionó y lo que puede hacer. <font size="6" color="#FF0000"><br><br>Beneficios de el Dia de la Tierra</font></p>
+<p align="left"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/beneficios2.jpg',1)"><img src="imagenes/beneficos.jpg" width="315" height="138" id="Image16"align="left"></a>Cuarenta años después de ese primer Día de la Tierra el 22 de abril de 1970, los niveles de smog en la nación se han reducido casi en una cuarta parte y los niveles de plomo en el aire han bajado más de un 90%. Lagos que eran fétidos y ríos contaminados están ahora abiertos a los nadadores. Los desafíos que enfrenta hoy el planeta son mayormente invisibles, y por lo tanto más difíciles de enfrentar.
+  "Sugerir que hemos progresado no es asegurar que el problema se ha superado", advirtió William Ruckelshaus, quien en 1970 fue el primer director de la Agencia de Protección Ambiental. "Lo que hemos hecho es pasar de las cuestiones más visibles a las más sutiles". Amenazas como el cambio climático son menos evidentes para el público. Desde el primer Día de la Tierra, los niveles de anhídrido carbónico en el aire han aumentado el 19%, elevando la temperatura anual promedio en 1.6 grado centígrado (1 Fahrenheit), según la Administración Nacional del Océano y la Atmósfera."Hemos limpiado lo que se puede ver y hemos dejado todo lo demás en el limbo", afirmó Kathleen Rogers, presidenta de la Red del Día de la Tierra. Las mejoras se concretaron mediante la Ley del Aire Puro, la Ley del Agua Pura y cambios en la forma en que las empresas tratan el ambiente, precisó Denis Hayes. Estas reformas, agregó, surgieron a raíz del primer Día de la Tierra, un acontecimiento que Hayes ayudó a coordinar. Hayes dijo que "el aire es más puro pese al hecho de que tenemos el doble de vehículos recorriendo el doble de millas". Nancy Sutley, directora del Consejo sobre Calidad Ambiental, de la Casa Blanca, dijo que el progreso de los últimos 40 años va más allá de las leyes. También se refleja en las innovaciones que han producido automóviles menos contaminantes. Y esa innovación, agregó, "será la respuesta al cambio climático".</p> 
+</div>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false"> 
+<h1>Video</h1>
+<div>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/s78VjjoMSXg" frameborder="0" allowfullscreen></iframe></div>
+</div> 
+<div data-role="footer" data-theme="a">
+<h4>App5</h4> 
+<h4>Cardona Rosas Miguel Angel</h4> 
+</div>
+</div>
+</div> 
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a"> 
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a"> 
+<h1>Medidas</h1>
+</div>
+<div data-role="content" align="center"> 
+<div>
+<p align="center"><font size="6" color="#FF0000">Algunas medidas para prevenir la contaminación </font></p>
+<p align="left"><img src="imagenes/medida.jpg" alt="medida" width="259" height="194" align="absmiddle"></p>
+<p align="left">A continuación se exponen diversas ideas para minimizar los agentes contaminantes en los sitios de trabajo:</p>
+<div align="right">
+  <ul>
+    <li align="left">
+      <div align="left">Desconectar los aparatos electrónicos cuando no se esten dañando. Por ejemplo; computadoras, microondas, aires acondicionales, fotocopiadoras, impresoras, etc.</div>
+    </li>
+    <li align="left">
+      <div align="left">Apagar las luces cuando se esté ausente de la oficina. Utilizar focos ahorradores de luz; éstos son mas caros que los normales; pero duran hasta 8 veces más y consumen la quinta parte de la energía para dar la misma cantidad de luz que un bombillo normal</div>
+    </li>
+    <li align="left">
+      <div align="left"> Procurar utilizar pilas recargables o enchufar los aparatos a la red eléctrica. Si es inevitable el uso de pilas desechables, éstas no deben estar revueltas entre la basura. En lugar de ello, sepáralas y colóquelas en un recipiente aparte, ya que contienen sustancias químicas que son tóxicas.</div>
+    </li>
+    <li align="left">
+      <div align="left">Usar racionalmente el agua. Utilizar el agua caliente sólo de ser necesario, instalar un filtro o garrafón de agua para ahorrar botellas. No dejan las llaves abiertas para evitar el despilfarro, arreglar las goteras, reparar inmediatamente.</div>
+    </li>
+    <li align="left">
+      <div align="left">Manejar menos y utilizar el transporte que no contaminen. En caso de que sea imprescindible salir en el autotomóvíl para ir al trabajo, compártelo con otros compañeros o vecinos</div>
+    </li> 
+    <li align="left">
+      <div align="left">Preguntarse si realmente se necesita un producto, antes de comprarlo. Cualquier consumo que no sea imprescindible es anti-ecológico. En caso de que este artículo sea indispensable, procure adquirir productos que contaminen menos el medio ambiente.</div>
+    </li>
+  </ul> <p align="left"><font size="6" color="#FF0000">Regla de las 3 R </font></p>
+<p align="left"><img src="imagenes/3r.jpg" width="311" height="194" align="left">Las tres erres(3R) es una regla para cuidar el medio ambiente, específicamente para reducir el volumen de residuos o basura generada. En pocas palabras, las 3R te ayudan a tirar menos basura, ahorrar dinero y ser un consumidor  más responsable, así reduciendo tu huella de carbono Y lo mejor de todo es que es muy fácil de seguir, ya que sólo tiene tres pasos: reducir, reutilizar y reciclar.<br><font color="#FF0000">Reducir</font><br>Cuando hablamos de reducir lo que estamos diciendo es que se debe tratar de reducir o simplificar el consumo de los productos directos, o sea, todo aquello que se compra  y se consume, ya que esto tiene una relación directa con los desperdicios a la vez que también la tiene con nuestro bolsillo. Por ejemplo, en vez de comprar 6 botellas pequeñas de una bebida, se puede conseguir una o dos grandes, teniendo el mismo producto pero menos envaces sobre los que preocuparse.<br><font color="#FF0000">Reutilizar</font><br>Al decir reutilizar, nos estamos refiriendo a poder volver a utilizar las cosas y darles la mayor utilidad posible antes de que llegue la hora de deshacernos de ellas, dado que al disminuir el volumen de la basura. Esta tarea suele ser la que menos atención recibe y es una de las más importantes, que también ayuda mucho la economía en casa.<br><font color="#FF0000">Reciclar</font><br>La ultima de las tareas es la de reciclaje que consiste en el proceso de someter los materiales a un proceso en cual se puedan volver a utilizar, reduciendo de forma verdaderamente significativa ñ}la utilización de nuevos materiales, y con ello, mas basura en un futuro</p></div>
+</div>
+</div>
+<div data-role="footer" data-theme="a"> 
+<h4>App5</h4>
+<h4>Cardona Rosas Miguel Angel</h4>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+   
